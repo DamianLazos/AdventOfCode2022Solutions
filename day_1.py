@@ -2276,7 +2276,7 @@ elvesDict = {}
 elvesCounter = 1
 for elfSnacks in removeSpace:
     castInteger = [int(snack) for snack in elfSnacks if snack != '']
-    elfOrder= f"elve_{elvesCounter}"
+    elfOrder = f"elve_{elvesCounter}"
     elfCalories = sum(castInteger)
     elvesDict[elfOrder] = elfCalories
     elvesCounter += 1
